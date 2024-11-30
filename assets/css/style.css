@@ -1043,12 +1043,11 @@ section {
 }
 
 .number-container {
-  display: inline-flex; /* Align elements horizontally */
-  align-items: center; /* Vertically center the + with the number */
+  display: inline-flex !important;
+  align-items: center !important;
 }
 
 .plus-sign {
-  font-size: 1.5rem; /* Match the number's size */
-  margin-left: 5px; /* Add some spacing between the number and the + */
+  font-size: 1.5rem !important;
+  margin-left: 5px !important;
 }
-
