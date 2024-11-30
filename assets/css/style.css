@@ -1042,8 +1042,13 @@ section {
   font-size: 13px;
 }
 
-.plus-sign {
-  font-size: 1.5rem; /* Adjust size to match the number */
-  margin-left: 2px; /* Add spacing between the number and the + */
-  vertical-align: top; /* Align the + with the number */
+.number-container {
+  display: inline-flex; /* Align elements horizontally */
+  align-items: center; /* Vertically center the + with the number */
 }
+
+.plus-sign {
+  font-size: 1.5rem; /* Match the number's size */
+  margin-left: 5px; /* Add some spacing between the number and the + */
+}
+
