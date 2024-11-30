@@ -1041,3 +1041,9 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.plus-sign {
+  font-size: 1.5rem; /* Adjust size to match the number */
+  margin-left: 2px; /* Add spacing between the number and the + */
+  vertical-align: top; /* Align the + with the number */
+}
